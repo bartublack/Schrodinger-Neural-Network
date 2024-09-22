@@ -38,7 +38,7 @@ $$
 $$
 
 where:
-For simplicity, we set units such that $ \hbar = 1 $ and $m = 1$, reducing the equation to:
+For simplicity, we set units such that $\hbar = 1$ and $m = 1$, reducing the equation to:
 
 $$
 -\frac{1}{2} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x).
@@ -57,7 +57,7 @@ where we assumed unit angular frequency, i.e. $w=1$.This potential is fundamenta
 
 ### Wavefunction Representation
 
-We represent the wavefunction $ \psi(x)  $ using a neural network. The network takes position $ x  $ as input and outputs $ \psi(x)  $. The wavefunction roughly can be interpreted as probability density function for the position of the particle. For example, a particle cannot be located in $x$ values where $\psi(x)=0$.
+We represent the wavefunction $\psi(x)$ using a neural network. The network takes position $x$ as input and outputs $\psi(x)$. The wavefunction roughly can be interpreted as probability density function for the position of the particle. For example, a particle cannot be located in $x$ values where $\psi(x)=0$.
 
 ### Loss Function
 
